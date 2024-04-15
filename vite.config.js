@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.jsx"),
-      name: "chakra-pagination",
+      name: "chakra-simple-pagination",
       fileName: (format) => `index.${format}.js`,
     },
 
