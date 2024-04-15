@@ -1,6 +1,6 @@
 # chakra-simple-pagination
 
-* This project is a fork of the original chakra-ui-table-w-pagination-sort-search
+*This project is based on the original chakra-ui-table-w-pagination-sort-search*
 
 Pagination tables component for Chakra-UI
 
@@ -19,29 +19,28 @@ Pagination tables component for Chakra-UI
 
 `npm install chakra-pagination`
 
-[npm Module](https://www.npmjs.com/package/table-pagination-chakra-ui)
 
 ### Props
 
-`pageSize` : {Number} - Es la cantidad de items que se van a ver por página
+`pageSize` : {Number} - Number of items to display per page
 
-`setPageSize`: {Function} - Setter de pageSize
+`setPageSize`: {Function} - Setter for pageSize
 
-`pageIndex`: {Number} - Es la indice en el cual nos encontramos dentro de la paginación de la tabla
+`pageIndex`: {Number} - Current page index in the table pagination
 
-`setPageIndex`: {Function} - Setter de pageIndex
+`setPageIndex`: {Function} - Setter for pageIndex
 
-`totalItemsCount`: {Number} - Es el largo del array de datos que se va a mostrar en la tabla
+`totalItemsCount`: {Number} - Length of the data array to be displayed in the table
 
-`pageSizeOptions`: {Array.Number} - Son las opciones de cantidades de items que se pueden mostrar por página. - `Default = [10,25,50]`
+`pageSizeOptions`: {Array.Number} - Options for the number of items that can be displayed per page. - Default = [10,25,50]
 
-`colorScheme`: Color de la paginación - `Default = "teal"`
+`colorScheme`: Pagination color - Default = "teal"
 
-`showOptions`: {Boolean} - Muestra las opciones - `Default = true`
+`showOptions`: {Boolean} - Whether to show options - Default = true
 
-`labelOptions`: {String} - Etiqueta de opciones - `Default = "Items mostrados"`
+`labelOptions`: {String} - Options label - Default = "Items shown"
 
-`showQuantity`: {Boolean} - Muestra cantidad - `Default = true`
+`showQuantity`: {Boolean} - Whether to show quantity - Default = true
 
 
 ### Import and use
@@ -133,6 +132,3 @@ const Table = () => {
 
 }
 ```
-
-
-  
