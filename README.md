@@ -2,6 +2,8 @@
 
 *This project is based on the original chakra-ui-table-w-pagination-sort-search*
 
+https://www.npmjs.com/package/chakra-simple-pagination
+
 Pagination tables component for Chakra-UI
 
 - [chakra-pagination](#chakra-ui-table-w-pagination-sort-search)
