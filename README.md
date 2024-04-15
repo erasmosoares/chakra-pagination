@@ -19,7 +19,7 @@ Pagination tables component for Chakra-UI
 
 ## Install
 
-`npm install chakra-pagination`
+`npm install chakra-simple-pagination`
 
 
 ### Props
