@@ -1,10 +1,8 @@
-# chakra-pagination
+# chakra-simple-pagination
 
 * This project is a fork of the original chakra-ui-table-w-pagination-sort-search
 
 Pagination tables component for Chakra-UI
-
-![demo-dif](demo-gif.gif)
 
 - [chakra-pagination](#chakra-ui-table-w-pagination-sort-search)
 - [Getting started](#getting-started)

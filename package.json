@@ -1,13 +1,13 @@
 {
-  "name": "chakra-pagination",
-  "displayName": "chakra-pagination",
+  "name": "chakra-simple-pagination",
+  "displayName": "chakra-simple-pagination",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erasmosoares"
+    "url": "https://github.com/erasmosoares/chakra-pagination"
   },
   "private": false,
   "author": "Erasmo Soares <erasmosaraujo@gmail.com>",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
