@@ -11,7 +11,6 @@ function App() {
         </Text>
       </Center>
       <Divider />
-
       <Box borderRadius={7} borderWidth={1} p={5}>
         <TablePaginacion />
       </Box>
