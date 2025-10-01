@@ -25,7 +25,7 @@ const ButtonPagination = ({ children, index, setPageIndex, pageIndex, colorSchem
   );
 };
 
-const PaginationTable = (props) => {
+export const PaginationTable = (props) => {
   const {
     pageSize,
     setPageSize,
@@ -110,10 +110,9 @@ const PaginationTable = (props) => {
   };
 
   return (
-    <ChakraProvider>
       <Flex w="100%" align="center" p={2}>
         {showOptions && (
-          <HStack spacing={3}>
+          <HStack spacing={10}>
             <Text fontSize="sm">{labelOptions}:</Text>
             <Select
               w="auto"
@@ -136,8 +135,12 @@ const PaginationTable = (props) => {
 
         <HStack spacing={2}>{showButtons()}</HStack>
       </Flex>
-    </ChakraProvider>
   );
 };
 
+
 export default PaginationTable;
+
+// ------ CHANGELOG ------
+// Support both named and default export
+// Remove ChakraProvider to avoid nested providers
